@@ -1,8 +1,25 @@
 # example.github.io
 <Html>
-<script>
-alert("hello red");
+<body>
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "admin";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="https://ridwan463.github.io/example.github.io/";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
 </script>
+</body>
 <h1>
  djjyv|f
 </h1>
