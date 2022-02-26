@@ -1,4 +1,4 @@
-.button {
+Us.button {
   background-color: black;
   border: none;
   color: white;
@@ -8,5 +8,5 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  border-radious:50%;
+  border-radius: 25px;
 }
