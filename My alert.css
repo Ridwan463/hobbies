@@ -1,5 +1,5 @@
 body {
-  color: MediumSeaGreen;
+  color: black;
   background-repeat: no-repeat;
   height: 100%;
   background-size: cover;
@@ -37,4 +37,7 @@ input{
   background-color:;
   Color: MediumSeaGreen;
   border:;
+     }
+.form{
+  color: MediumSeaGreen;
      }
