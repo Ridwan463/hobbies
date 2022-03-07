@@ -1,4 +1,4 @@
-body{
+bodybuilding {
   background-color:;
   background-repeat: no-repeat;
   height: 100%;
@@ -33,6 +33,7 @@ body{
   font-family: "Times New Roman", Times, serif;
  }
 input{
+  background-color: none;
   Color:none;
   border:none;
      }
