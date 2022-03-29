@@ -7,7 +7,7 @@ body {
 
   background-position: center;
     }
-input.yourname{
+input[type=text]{
   background-color: #ffff00;
     }
 .button {
